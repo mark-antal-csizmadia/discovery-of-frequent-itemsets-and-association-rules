@@ -37,6 +37,10 @@ I -> j where conf(I -> j) = support(I union j) / support(I)
 
 where I union j are frequent itemset (and there I and j are too).
 
+The Apriori algorithm.
+![alt text](assets/apriori.png)
+
+
 ## Results
 
 With a support of 1% (occurence of itemsets at least in 1000 baskets, since there are 10k baskets) and a confidence threshold of 50%, the following non-singleton frequent itemsets and association rules are discovered:
